@@ -28,9 +28,6 @@ Just make sure the .htaccess file is setup. The default WordPress created .htacc
 
 Example .htaccess file:
 
-# Helicon ISAPI_Rewrite configuration file
-# Version 3.1.0.62
-
 RewriteEngine On
 RewriteBase /
 RewriteCond %{REQUEST_FILENAME} !-f
