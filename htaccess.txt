@@ -1,0 +1,8 @@
+# You should be able to use this as a .htaccess file
+# with ISAPI Rewrite 3.0
+RewriteEngine On
+RewriteBase /
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule .* /index.php [L]
+
