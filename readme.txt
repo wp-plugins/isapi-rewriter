@@ -1,6 +1,6 @@
 === ISAPI Rewriter ===
 Contributors: theandystratton
-Donate link: http://theandystratton.com
+Donate link: http://theandystratton.com/donate
 Tags: windows, iis, permalinks
 Requires at least: 2.6
 Tested up to: 2.7.1
