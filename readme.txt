@@ -15,6 +15,8 @@ is it can remain activated when upgrading WordPress, as opposed to modifying the
 
 The plugin has been tested on Windows Server 2003 with ISAPI Rewrite 3. Please comment with feedback if you're experiencing other issues or if it has helped you!
 
+Find more information, comments, and support here: <a href="http://theandystratton.com/2009/get-wordpress-permalinks-working-with-windows-iis-and-isapi-rewrite">http://theandystratton.com/2009/get-wordpress-permalinks-working-with-windows-iis-and-isapi-rewrite</a>
+
 == Installation ==
 
 1. Download and unzip to the 'wp-content/plugins/' directory 
@@ -28,8 +30,8 @@ Just make sure the .htaccess file is setup. The default WordPress created .htacc
 
 Example .htaccess file:
 
-RewriteEngine On
+<pre>RewriteEngine On
 RewriteBase /
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule .* /index.php [L]
+RewriteRule .* /index.php [L]</pre>
